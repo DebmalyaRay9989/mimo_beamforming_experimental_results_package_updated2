@@ -1,0 +1,4 @@
+algorithm,reference,gamma,codebook,channel_model,snr_db,csi_quality,feedback_delay_steps,paired_delta_rate_mean,paired_delta_ci_low,paired_delta_ci_high,n_seeds
+Contextual Bandit (gamma=0),DQN,0.0,DFT,3GPP-38.901-UMa,0,1.0,0,0.0,0.0,0.0,16
+Double DQN,DQN,0.95,DFT,3GPP-38.901-UMa,0,1.0,0,0.0,0.0,0.0,32
+Dueling DQN,DQN,0.95,DFT,3GPP-38.901-UMa,0,1.0,0,0.0821739051992914,-0.07090226744692323,0.235250077845506,32

@@ -1,0 +1,67 @@
+{
+  "config": {
+    "num_antennas": 4,
+    "num_beams": 16,
+    "snr_db": 10,
+    "episodes": 5,
+    "steps_per_episode": 5,
+    "batch_size": 32,
+    "gamma": 0.95,
+    "gammas": [
+      0.95,
+      0.0
+    ],
+    "epsilon_decay": 0.995,
+    "learning_rate": 0.001,
+    "mobility": 0.05,
+    "bandwidth_mhz": 10.0,
+    "target_update": 10,
+    "eval_episodes": 5,
+    "snr_grid": [
+      0,
+      10
+    ],
+    "seeds": [
+      42,
+      43
+    ],
+    "csi_qualities": [
+      1.0,
+      0.5
+    ],
+    "feedback_delay_steps": [
+      0,
+      1
+    ],
+    "codebooks_to_test": [
+      "DFT",
+      "Zadoff-Chu"
+    ],
+    "codebook_validation_episodes": 20,
+    "zc_min_relative_gain": 0.95,
+    "channel_model": "3GPP-38.901-UMa",
+    "frequency_ghz": 28.0,
+    "los_probability": 0.5,
+    "final_window": 50
+  },
+  "seeds": [
+    42,
+    43
+  ],
+  "algorithms": [
+    "DQN",
+    "Double DQN",
+    "Dueling DQN",
+    "Contextual Bandit (gamma=0)"
+  ],
+  "gamma_zero_contextual_bandit_baseline": true,
+  "confidence_interval": "two-sided 95% Student-t across independent seeds",
+  "paired_comparison": "same seed and condition matched against DQN",
+  "codebook_validation": {
+    "decision": "drop",
+    "mean_zc_to_dft_oracle_gain_ratio": 0.9143609544705038
+  },
+  "channel_note": "3GPP TR 38.901-inspired UMa surrogate or optional DeepMIMO .npy/.npz samples; neither is claimed to be a standards-complete channel simulator",
+  "generated_utc": "2026-09-26T15:45:40Z",
+  "implementation": "PyTorch reproducibility runner with repeated seeds, imperfect CSI, feedback delay, gamma=0 baseline and codebook/channel validation"
+}

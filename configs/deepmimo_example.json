@@ -1,0 +1,61 @@
+{
+  "num_antennas": 4,
+  "num_beams": 16,
+  "snr_db": 10,
+  "episodes": 200,
+  "steps_per_episode": 30,
+  "batch_size": 32,
+  "gamma": 0.95,
+  "gammas": [
+    0.95,
+    0.0
+  ],
+  "epsilon_decay": 0.995,
+  "learning_rate": 0.001,
+  "mobility": 0.05,
+  "bandwidth_mhz": 10.0,
+  "target_update": 10,
+  "eval_episodes": 50,
+  "snr_grid": [
+    -10,
+    -5,
+    0,
+    5,
+    10,
+    15,
+    20
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "csi_qualities": [
+    1.0,
+    0.8,
+    0.5
+  ],
+  "feedback_delay_steps": [
+    0,
+    1,
+    3
+  ],
+  "codebooks_to_test": [
+    "DFT",
+    "Zadoff-Chu"
+  ],
+  "codebook_validation_episodes": 200,
+  "zc_min_relative_gain": 0.95,
+  "channel_model": "DeepMIMO",
+  "frequency_ghz": 28.0,
+  "los_probability": 0.5,
+  "final_window": 50,
+  "deepmimo_path": "data/deepmimo_channels.npy"
+}

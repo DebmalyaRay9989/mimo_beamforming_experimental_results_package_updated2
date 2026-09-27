@@ -1,0 +1,36 @@
+{
+  "config": {
+    "num_antennas": 4,
+    "num_beams": 16,
+    "snr_db": 10,
+    "episodes": 100,
+    "steps_per_episode": 20,
+    "batch_size": 32,
+    "gamma": 0.95,
+    "epsilon_decay": 0.995,
+    "learning_rate": 0.001,
+    "mobility": 0.05,
+    "bandwidth_mhz": 10.0,
+    "target_update": 10,
+    "eval_episodes": 30,
+    "snr_grid": [
+      -10,
+      -5,
+      0,
+      5,
+      10,
+      15,
+      20
+    ]
+  },
+  "seeds": [
+    42
+  ],
+  "algorithms": [
+    "DQN",
+    "Double DQN",
+    "Dueling DQN"
+  ],
+  "generated_utc": "2026-09-25T12:10:17Z",
+  "implementation": "PyTorch reproduction runner mirroring the manuscript environment/reward/codebook definitions"
+}

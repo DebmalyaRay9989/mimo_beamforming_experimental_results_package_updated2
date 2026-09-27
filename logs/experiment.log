@@ -1,0 +1,340 @@
+2026-09-26 15:45:33,906 | INFO | System: Linux-6.18.44-x86_64-with-glibc2.41 | Python 3.13.5 | PyTorch 2.10.0+cpu
+2026-09-26 15:45:33,906 | INFO | Seeds: [42, 43]
+2026-09-26 15:45:34,270 | INFO | Zadoff-Chu validation: mean ZC/DFT oracle-gain ratio=0.9144 -> drop
+2026-09-26 15:45:34,922 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:34,928 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:34,932 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:34,936 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:34,940 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:34,982 | INFO | DQN seed=42 completed in 0.07s
+2026-09-26 15:45:34,993 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:34,997 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:35,003 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:35,008 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:35,013 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:35,062 | INFO | DQN seed=43 completed in 0.08s
+2026-09-26 15:45:35,073 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:35,079 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:35,083 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:35,086 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:35,090 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:35,132 | INFO | Double DQN seed=42 completed in 0.07s
+2026-09-26 15:45:35,142 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:35,146 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:35,151 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:35,157 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:35,161 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:35,207 | INFO | Double DQN seed=43 completed in 0.07s
+2026-09-26 15:45:35,218 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:35,224 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:35,228 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:35,232 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:35,236 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:35,276 | INFO | Dueling DQN seed=42 completed in 0.07s
+2026-09-26 15:45:35,287 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:35,291 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:35,296 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:35,304 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:35,308 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:35,355 | INFO | Dueling DQN seed=43 completed in 0.08s
+2026-09-26 15:45:35,366 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:35,372 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:35,376 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:35,380 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:35,384 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:35,426 | INFO | DQN seed=42 completed in 0.07s
+2026-09-26 15:45:35,438 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:35,442 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:35,448 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:35,453 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:35,457 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:35,505 | INFO | DQN seed=43 completed in 0.08s
+2026-09-26 15:45:35,515 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:35,522 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:35,526 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:35,530 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:35,534 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:35,574 | INFO | Double DQN seed=42 completed in 0.07s
+2026-09-26 15:45:35,584 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:35,588 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:35,596 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:35,602 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:35,607 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:35,655 | INFO | Double DQN seed=43 completed in 0.08s
+2026-09-26 15:45:35,666 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:35,672 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:35,676 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:35,680 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:35,684 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=1.00 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:35,726 | INFO | Dueling DQN seed=42 completed in 0.07s
+2026-09-26 15:45:35,737 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:35,741 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:35,747 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:35,753 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:35,757 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=1.00 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:35,804 | INFO | Dueling DQN seed=43 completed in 0.08s
+2026-09-26 15:45:35,814 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:35,820 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:35,824 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:35,828 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:35,832 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:35,873 | INFO | DQN seed=42 completed in 0.07s
+2026-09-26 15:45:35,884 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:35,887 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:35,893 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:35,899 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:35,903 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:35,949 | INFO | DQN seed=43 completed in 0.07s
+2026-09-26 15:45:35,959 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:35,966 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:35,970 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:35,974 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:35,978 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:36,018 | INFO | Double DQN seed=42 completed in 0.07s
+2026-09-26 15:45:36,032 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:36,036 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:36,042 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:36,047 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:36,051 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:36,099 | INFO | Double DQN seed=43 completed in 0.08s
+2026-09-26 15:45:36,109 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:36,115 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:36,119 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:36,123 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:36,127 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:36,168 | INFO | Dueling DQN seed=42 completed in 0.07s
+2026-09-26 15:45:36,179 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:36,183 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:36,188 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:36,194 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:36,198 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:36,245 | INFO | Dueling DQN seed=43 completed in 0.08s
+2026-09-26 15:45:36,256 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:36,262 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:36,265 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:36,269 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:36,273 | INFO | DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:36,313 | INFO | DQN seed=42 completed in 0.07s
+2026-09-26 15:45:36,324 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:36,328 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:36,334 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:36,340 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:36,344 | INFO | DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:36,391 | INFO | DQN seed=43 completed in 0.08s
+2026-09-26 15:45:36,402 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:36,407 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:36,411 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:36,417 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:36,421 | INFO | Double DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:36,461 | INFO | Double DQN seed=42 completed in 0.07s
+2026-09-26 15:45:36,471 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:36,475 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:36,482 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:36,488 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:36,492 | INFO | Double DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:36,539 | INFO | Double DQN seed=43 completed in 0.08s
+2026-09-26 15:45:36,550 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:36,556 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:36,559 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:36,563 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:36,567 | INFO | Dueling DQN seed=42 gamma=0.95 cb=DFT q=0.50 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:36,611 | INFO | Dueling DQN seed=42 completed in 0.07s
+2026-09-26 15:45:36,621 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:36,625 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:36,631 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:36,637 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:36,641 | INFO | Dueling DQN seed=43 gamma=0.95 cb=DFT q=0.50 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:36,688 | INFO | Dueling DQN seed=43 completed in 0.08s
+2026-09-26 15:45:36,700 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:36,707 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:36,711 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:36,715 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:36,719 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:36,762 | INFO | DQN seed=42 completed in 0.07s
+2026-09-26 15:45:36,773 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:36,777 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:36,783 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:36,788 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:36,792 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:36,838 | INFO | DQN seed=43 completed in 0.07s
+2026-09-26 15:45:36,848 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:36,854 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:36,858 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:36,861 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:36,865 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:36,906 | INFO | Double DQN seed=42 completed in 0.07s
+2026-09-26 15:45:36,916 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:36,920 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:36,926 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:36,932 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:36,936 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:36,982 | INFO | Double DQN seed=43 completed in 0.08s
+2026-09-26 15:45:36,993 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:36,999 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:37,003 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:37,006 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:37,010 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:37,053 | INFO | Dueling DQN seed=42 completed in 0.07s
+2026-09-26 15:45:37,064 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:37,068 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:37,074 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:37,080 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:37,083 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:37,130 | INFO | Dueling DQN seed=43 completed in 0.08s
+2026-09-26 15:45:37,140 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:37,146 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:37,150 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:37,154 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:37,158 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=1.00 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:37,198 | INFO | Contextual Bandit (gamma=0) seed=42 completed in 0.07s
+2026-09-26 15:45:37,209 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:37,213 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:37,219 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:37,225 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:37,229 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=1.00 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:37,274 | INFO | Contextual Bandit (gamma=0) seed=43 completed in 0.07s
+2026-09-26 15:45:37,284 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:37,292 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:37,298 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:37,303 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:37,308 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:37,349 | INFO | DQN seed=42 completed in 0.07s
+2026-09-26 15:45:37,360 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:37,364 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:37,369 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:37,375 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:37,379 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:37,427 | INFO | DQN seed=43 completed in 0.08s
+2026-09-26 15:45:37,438 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:37,444 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:37,448 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:37,451 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:37,455 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:37,498 | INFO | Double DQN seed=42 completed in 0.07s
+2026-09-26 15:45:37,509 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:37,514 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:37,520 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:37,526 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:37,530 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:37,577 | INFO | Double DQN seed=43 completed in 0.08s
+2026-09-26 15:45:37,588 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:37,594 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:37,598 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:37,602 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:37,606 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:37,650 | INFO | Dueling DQN seed=42 completed in 0.07s
+2026-09-26 15:45:37,661 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:37,664 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:37,670 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:37,676 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:37,680 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:37,728 | INFO | Dueling DQN seed=43 completed in 0.08s
+2026-09-26 15:45:37,739 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:37,744 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:37,750 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:37,754 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:37,758 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=1.00 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:37,799 | INFO | Contextual Bandit (gamma=0) seed=42 completed in 0.07s
+2026-09-26 15:45:37,809 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:37,813 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:37,819 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:37,825 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:37,829 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=1.00 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:37,875 | INFO | Contextual Bandit (gamma=0) seed=43 completed in 0.08s
+2026-09-26 15:45:37,886 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:37,892 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:37,896 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:37,900 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:37,904 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:37,944 | INFO | DQN seed=42 completed in 0.07s
+2026-09-26 15:45:37,954 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:37,958 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:37,964 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:37,970 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:37,974 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:38,022 | INFO | DQN seed=43 completed in 0.08s
+2026-09-26 15:45:38,034 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:38,040 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:38,045 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:38,050 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:38,054 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:38,094 | INFO | Double DQN seed=42 completed in 0.07s
+2026-09-26 15:45:38,105 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:38,109 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:38,115 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:38,120 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:38,124 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:38,170 | INFO | Double DQN seed=43 completed in 0.07s
+2026-09-26 15:45:38,180 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:38,186 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:38,190 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:38,194 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:38,197 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:38,239 | INFO | Dueling DQN seed=42 completed in 0.07s
+2026-09-26 15:45:38,249 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:38,253 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:38,258 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:38,264 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:38,268 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:38,316 | INFO | Dueling DQN seed=43 completed in 0.08s
+2026-09-26 15:45:38,326 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.4806
+2026-09-26 15:45:38,332 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=2/5 last50=1.9037
+2026-09-26 15:45:38,336 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.0977
+2026-09-26 15:45:38,340 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=4/5 last50=1.9751
+2026-09-26 15:45:38,344 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=0.50 delay=0 episode=5/5 last50=1.6780
+2026-09-26 15:45:38,386 | INFO | Contextual Bandit (gamma=0) seed=42 completed in 0.07s
+2026-09-26 15:45:38,396 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=1/5 last50=2.6732
+2026-09-26 15:45:38,400 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=2/5 last50=2.1123
+2026-09-26 15:45:38,406 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=3/5 last50=2.1499
+2026-09-26 15:45:38,412 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=4/5 last50=2.0203
+2026-09-26 15:45:38,416 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=0.50 delay=0 episode=5/5 last50=2.2245
+2026-09-26 15:45:38,464 | INFO | Contextual Bandit (gamma=0) seed=43 completed in 0.08s
+2026-09-26 15:45:38,475 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:38,481 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:38,484 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:38,488 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:38,492 | INFO | DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:38,535 | INFO | DQN seed=42 completed in 0.07s
+2026-09-26 15:45:38,546 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:38,550 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:38,556 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:38,562 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:38,565 | INFO | DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:38,616 | INFO | DQN seed=43 completed in 0.08s
+2026-09-26 15:45:38,628 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:38,634 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:38,638 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:38,641 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:38,645 | INFO | Double DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:38,686 | INFO | Double DQN seed=42 completed in 0.07s
+2026-09-26 15:45:38,697 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:38,700 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:38,706 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:38,712 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:38,717 | INFO | Double DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:38,764 | INFO | Double DQN seed=43 completed in 0.08s
+2026-09-26 15:45:38,774 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:38,780 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:38,784 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:38,788 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:38,792 | INFO | Dueling DQN seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:38,836 | INFO | Dueling DQN seed=42 completed in 0.07s
+2026-09-26 15:45:38,847 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:38,851 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:38,857 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:38,863 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:38,867 | INFO | Dueling DQN seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:38,917 | INFO | Dueling DQN seed=43 completed in 0.08s
+2026-09-26 15:45:38,928 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.4806
+2026-09-26 15:45:38,935 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=2/5 last50=1.9037
+2026-09-26 15:45:38,939 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.0977
+2026-09-26 15:45:38,944 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=4/5 last50=1.9751
+2026-09-26 15:45:38,950 | INFO | Contextual Bandit (gamma=0) seed=42 gamma=0.00 cb=DFT q=0.50 delay=1 episode=5/5 last50=1.6780
+2026-09-26 15:45:38,993 | INFO | Contextual Bandit (gamma=0) seed=42 completed in 0.07s
+2026-09-26 15:45:39,004 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=1/5 last50=2.6732
+2026-09-26 15:45:39,008 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=2/5 last50=2.1123
+2026-09-26 15:45:39,014 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=3/5 last50=2.1499
+2026-09-26 15:45:39,021 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=4/5 last50=2.0203
+2026-09-26 15:45:39,025 | INFO | Contextual Bandit (gamma=0) seed=43 gamma=0.00 cb=DFT q=0.50 delay=1 episode=5/5 last50=2.2245
+2026-09-26 15:45:39,074 | INFO | Contextual Bandit (gamma=0) seed=43 completed in 0.08s
+2026-09-26 15:45:40,377 | INFO | Completed extended benchmark: 2 seeds, 28 condition rows
