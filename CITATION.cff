@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated Journal of Signal Processing Systems manuscript and this repository."
+title: "MIMO Beamforming Optimizer - Reproducible Experimental Runner"
+type: software
+license: MIT
+authors:
+  - family-names: Ray
+    given-names: Debmalya
+  - family-names: Chowdhuri
+    given-names: Swati
+version: 1.0.0
+date-released: 2026-09-25
+repository-code: "https://github.com/REPLACE_WITH_YOUR_USERNAME/mimo-beamforming-optimizer-reproducibility"

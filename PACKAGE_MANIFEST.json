@@ -1,0 +1,17 @@
+{
+  "package": "mimo_beamforming_experimental_results_package",
+  "updated": "2026-09-26",
+  "changes": [
+    "10 independent seeds by default",
+    "95% Student-t confidence intervals over seed-level metrics",
+    "paired seed-level algorithm differences",
+    "gamma=0 contextual-bandit baseline",
+    "imperfect CSI sweep",
+    "feedback-delay sweep",
+    "automatic Zadoff-Chu codebook validation and drop/retain rule",
+    "3GPP TR 38.901-inspired UMa surrogate",
+    "DeepMIMO npy/npz channel adapter"
+  ],
+  "smoke_test": "passed; 2 seeds with reduced configuration",
+  "smoke_test_note": "Smoke results are validation-only and not publication evidence."
+}
